@@ -1,0 +1,21 @@
+{% from 'field-macro.html' import displayField %}
+{% extends "prelogin-layout.html" %}
+
+{% block title %}Flack {% endblock title%}
+
+{% block content %}
+        <!-- <h2>Hello {{username}}</h2> -->
+        <p>Add Channel Page</p>
+
+
+        <form action="{{ url_for('newchannel')  }}", method="POST">
+              <div class="form-group">
+                <label for="name">Enter channel name</label>
+                <input type="text" class="form-control"   name="channelname" id="name" placeholder="Channel Name">
+             </div>
+               <input type="submit"  class="btn btn-warning">
+        </form>
+
+        <hr>
+
+{% endblock %}
