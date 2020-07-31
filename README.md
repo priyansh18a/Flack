@@ -1,19 +1,26 @@
-# Project 2
-Developed a chat application bases on socket.io
+# Flack 
 
-application.py-contain main server file
+### A project of Harvard University Course
 
-With in templates - prelogin-layout is the base html file.
-all other file are html file for different page.
+This project is part of web programming with python and javascript course by Harvard University. This program is similar to a mini version of slack with the functionality of communicating with users all other users present in the corresponding channel. Users can also add channels of whatever name they want. Also, two users can have a private chat on this project.
 
-Within static- images contain 2 images for website
-	scripts contain - 3 java scripts file
-	styles contain - 2 css file for  and channel/private page.
+**This project is made using Flask. It uses Flask Web-Socket for real-time communication. For other things, it uses Bootstrap-4, Javascript in addition to HTML and CSS.**
 
-Channel and user name are stored in local storage.
-You can add channel in this app and notification will show if you add channel with same name.
 
-All requirement of the project except storage of recent 100 messenge in local storage are fulfilled.
- 
+[Project Working Video](https://youtu.be/R80PLtOreJM)
 
-Web Programming with Python and JavaScript
+
+### Portal Screenshots:
+
+Chat Between Two People :
+![Menu](Media/Chat.png)
+
+Add Channel Page:
+![Login](Media/AddChannel.png)
+
+Private Chat Page:
+![Login](Media/PrivateChat.png)
+
+
+
+
